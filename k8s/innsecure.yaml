@@ -38,5 +38,5 @@ spec:
           ports:
             - containerPort: 8080
           envFrom:
-            - configMapRef:
-                name: innsecure-config
+            - secretRef:
+                name: innsecure-secrets

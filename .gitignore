@@ -1,4 +1,6 @@
 bin
 .idea
+secrets/
 releases
 .DS_Store
+._DS_Store

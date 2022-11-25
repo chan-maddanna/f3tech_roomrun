@@ -133,7 +133,7 @@ func (svc *BookingService) GetBookingByID(ctx context.Context, u *User, ID strin
 }
 
 // convertDBError converts a repository error to a domain one.
-func convertDBError(err error) error {
+/*func convertDBError(err error) error {
 	switch err {
 	case nil:
 		return nil
@@ -143,3 +143,4 @@ func convertDBError(err error) error {
 		return ErrDatabase
 	}
 }
+*/
