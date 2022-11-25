@@ -9,22 +9,6 @@ metadata:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: innsecure-config
-  namespace: innsecure
-  labels:
-    app: innsecure
-data:
-  POSTGRES_DB: innsecure
-  POSTGRES_USER: root
-  POSTGRES_PASSWORD: YWRtaW4xMjM0
-  DB_HOST: postgres
-  DB_USER: root
-  DB_PASSWORD: YWRtaW4xMjM0
-  JWT_SIGNING_STRING: SigningString
----
-apiVersion: v1
-kind: ConfigMap
-metadata:
   name: postgres-config
   namespace: innsecure
   labels:
